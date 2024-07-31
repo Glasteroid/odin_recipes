@@ -9,14 +9,17 @@ h1 {
     color: teal;
     font-weight: bold;
     background-color: #7091e6;
+    padding: 25px;
+    border: 5px solid red;
 }
 
 h2, h3 {
-    color: #8697c4;
+    color: black;
 }
 
 h2 {
     font-size: 50px;
+
 }
 
 h3 {
@@ -45,4 +48,25 @@ ul, ol{
 
 li {
     font-size: 20px;
+}
+
+#spaghetti, #tinola, #adobo {
+    border: 5px solid green;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#spaghetti {
+    margin: 10px auto;
+}
+
+#tinola {
+    margin-bottom: 10px;
+}
+
+.ingredients, .steps {
+    display: block;
+    margin: 100px 80px;
+    border: 5px solid green;
 }
